@@ -1,0 +1,8 @@
+ru\mai\webclassifier\database\DatabaseDriver.class
+ru\mai\webclassifier\models\ClassifyForm.class
+ru\mai\webclassifier\database\models\TextClass.class
+ru\mai\webclassifier\database\models\BagWord.class
+ru\mai\webclassifier\database\models\TextClass$1.class
+ru\mai\webclassifier\services\ClassificationService.class
+ru\mai\webclassifier\controllers\TextClassifyController.class
+ru\mai\webclassifier\WebclassifierApplication.class

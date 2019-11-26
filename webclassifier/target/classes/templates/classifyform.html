@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Классификатор текста | Классификатор</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>
+            <span>Введите текст для проверки и определения класса</span>
+            <form action="#" method="post" th:action="@{/classify}" th:object="${classifyForm}" >
+                <div>
+                    <textarea type="text" th:field="*{text}" style="height: 600px; width: 400px;"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Проверка"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
